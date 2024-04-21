@@ -24,21 +24,53 @@
     color: white;
 }
 
+.img-fluid{
+width: 70%;
+
+}
+
+.card-img-top{
+    width: 50%;
+}
 
 .container_1{
     display: flex;
     align-items: center;
-    height: 80vh; 
+
     justify-content: space-evenly;
     font-family: "Roboto";
-    margin-top: 3rem;
+    
+}
+.container_experiencia{
+    
+    font-family: "Roboto";
+    margin-top: 1rem;
+
+}
+.container_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Roboto";
+    margin-top: 1rem;
 }
 
-.card-body{
-    text-align: center;
-    justify-content: center;
-    justify-content: space-evenly;
+
+.card-text{
+color: #7c7c7c;
+font-family: "Roboto";
+text-align: justify;
 }
+
+.card-text-2{
+    color: #7c7c7c;
+    font-family: "Roboto";
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: justify;
+    }
+    
+
 
 .sobremi{
     font-family: "Roboto";
@@ -46,64 +78,10 @@
     text-align: center;
 }
 
-.card-text{
-    color: #707070;
-    font-size: medium;
-    font-family: "Roboto";
-}
 
-
-
-
-
-
-
-
-
-.nav-link{
-color: #ffffff;
-font-family: "Roboto";
-}
-
-
-
-.cards-group{
-
-max-width: 100%;
-
-}
-
-
-
-
-.card-tittle{
-    font-family: "Roboto";
-    font-weight:900;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-.card-body{
-    font-family: "Roboto";
-    text-align: justify;
-    
-}
 
 .card-footer{
     background-color: transparent;
-}
-
-.text-body-secondary{
-color: #28a745;
-font-size: medium;
-font-weight: bold;
-
-}
-
-.text-body-primary{
-    color: #707070;
-    font-size: small;
-    padding-right: 1rem;
 }
 
 
@@ -117,6 +95,7 @@ font-weight: bold;
     max-width: 100%;
 }
 
+
 .btn.btn-primary{
 background: #F8F9FA;
 border-color:#F8F9FA;
@@ -126,23 +105,7 @@ font-size: light;
 
 }
 
-.titulo-formulario{
-    font-size: medium;
-    color: #F8F9FA;
-}
-
-.form-control{
-width: 1200px;
-margin: 0;
-max-width: 100%;
-}
-
-.img-footer{
-    width: 120px;
-    margin-top: 1rem;
-}
-
-
-.visita{
-color: #707070;
+.card-group {
+    
+    align-items: center;
 }
