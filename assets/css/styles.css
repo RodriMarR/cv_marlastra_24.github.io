@@ -78,13 +78,9 @@ text-align: justify;
     text-align: center;
 }
 
-
-
 .card-footer{
     background-color: transparent;
 }
-
-
 
 .container-2{
     background-color: #28a745;
@@ -108,4 +104,8 @@ font-size: light;
 .card-group {
     
     align-items: center;
+}
+
+.card-img-top{
+    margin-top: 1rem;
 }
